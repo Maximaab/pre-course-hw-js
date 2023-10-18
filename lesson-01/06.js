@@ -1,3 +1,3 @@
 let str = "zzzzyzz" === "y" ? "Нашел" : "заблудился"
-console.log(str)
+console.log(str.includes())
 
