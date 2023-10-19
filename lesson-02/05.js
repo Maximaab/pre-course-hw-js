@@ -1,6 +1,6 @@
 let passport = {
     name: "Petr",
-    surname: "Petrov",
+
 };
 let copyPassport = passport
 let copuPassport = {
