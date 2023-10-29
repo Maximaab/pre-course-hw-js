@@ -24,6 +24,6 @@ const newObj = {
     surName: 'Susanin',
     address: 'Unknown'
 }
-console.log(users2.map(el=>el)+newObj )
+console.log(users2.map(el=>el).push(newObj) )
 
 
