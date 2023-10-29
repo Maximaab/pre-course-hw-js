@@ -1,9 +1,13 @@
 const words = ["яблоко", "банан", "апельсин", "манго", "киви"];
-if(words.indexOf("апельсин")) {
-    console.log("Ура! нашел")
-} else {
-    console.log("Придется поискать в другом магазине…")
+const NewWords = (words) => {
+    if(words.indexOf("апельсин")) {
+        return  "Ура! нашел"
+    } else {
+         return "Придется поискать в другом магазине…"
+    }
 }
+console.log(NewWords(words))
+
 
 
 
